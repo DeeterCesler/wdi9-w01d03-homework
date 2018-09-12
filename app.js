@@ -87,3 +87,52 @@ for(let i=0; i<turtles.length; i++){
 //     }
 //     console.log(name);
 // }
+
+// return of the closets
+// alien attire
+
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+  
+  // Thom's closet is more complicated. Check out this nested data structure!!
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+
+  const kristynsShoe = kristynsCloset.shift();
+  const thomsAccessories = thomsCloset[2];
+
+  thomsAccessories.push(kristynsShoe);
+
+//   dress 'em up
+
+const firstOutfit = (`Kristyn is wearing a ${kristynsCloset[0]}, ${thomsCloset[1][1]}, and ${thomsCloset[2][2]}.`);
+const secondOutfit = (`Tom is wearing a ${kristynsCloset[3]}, ${thomsCloset[0][3]}, and ${thomsCloset[2][1]}.`);;
+const thirdOutfit = (`The inconspicuous outfit is a ${kristynsCloset[2]}, ${thomsCloset[0][0]}, and ${thomsCloset[1][0]}.`);
+
+console.log(firstOutfit);
+console.log(secondOutfit);
+console.log(thirdOutfit);
