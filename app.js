@@ -148,3 +148,22 @@ for(let x = 0; x<thomsCloset.length; x++){
 }
 // not sure if I understood this question correctly?
 
+// mutiples of 3 and 5
+
+// find all the multiples of 3 and 5 and put them in an array
+let arrayToSum = [];
+
+for(n = 0; n<1000; n++){
+    if(n % 3 === 0 || n % 5 === 0){
+        arrayToSum.push(n);
+    }
+}
+
+// sum them all
+let sum = 0;
+for(a=0; a<arrayToSum.length; a++){
+    sum = sum + arrayToSum[a]
+}
+
+console.log(sum);
+// => 233168
