@@ -44,3 +44,27 @@ for(let i=1; i<=100; i++){
         console.log(i)
     }
 }
+
+// getting to know you
+
+const shahzad = ["Shahzad", 1000, "Austin"];
+const jim = ["Jim", 16, "All cities"];
+const reuben = ["Reuben", 22, "Durham"];
+const daniel = ["Daniel", 186, "Dallas"];
+const ryan = ["Ryan", 65, "Denver"];
+
+shahzad.shift();
+shahzad.unshift("Gameboy");
+
+daniel[1]+=1;
+
+ryan.pop();
+ryan.push("Gotham City");
+
+reuben.pop();
+reuben.push("Chicago");
+
+jim.pop();
+jim.push("New York", "London", "Beijing");
+
+jim.splice(2, 1);
