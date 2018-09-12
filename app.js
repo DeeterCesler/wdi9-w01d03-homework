@@ -136,3 +136,15 @@ const thirdOutfit = (`The inconspicuous outfit is a ${kristynsCloset[2]}, ${thom
 console.log(firstOutfit);
 console.log(secondOutfit);
 console.log(thirdOutfit);
+
+// dirty laundry
+
+for(let w = 0; w<kristynsCloset.length; w++){
+    console.log(`WHIRR: Now washing ${kristynsCloset[w]}`)
+}
+
+for(let x = 0; x<thomsCloset.length; x++){
+    console.log(thomsCloset[x])
+}
+// not sure if I understood this question correctly?
+
