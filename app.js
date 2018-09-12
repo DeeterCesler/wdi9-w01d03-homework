@@ -68,3 +68,22 @@ jim.pop();
 jim.push("New York", "London", "Beijing");
 
 jim.splice(2, 1);
+
+// yell at the ninja turtles
+
+const turtles = ["Donatello", "Leonardo", "Raphael", "Michelangelo"];
+
+
+for(let i=0; i<turtles.length; i++){
+    let name = turtles[i];
+    console.log(name.toUpperCase());
+}
+
+// the alternator part is taking too much time to complete right now
+// for(let i=0; i<turtles.length; i++){
+//     let name = turtles[i];
+//     for(let j=0; j<name.length; j+=2){
+//         name[j].toUpperCase();
+//     }
+//     console.log(name);
+// }
